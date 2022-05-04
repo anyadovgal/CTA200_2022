@@ -1,0 +1,365 @@
+    1  /cita/local/bin/passwd
+    2  exit
+    3  whoami
+    4  w
+    5  who
+    6  pwd
+    7  pwd
+    8  exit
+    9  pwd
+   10  ls.
+   11  ls .
+   12  ls ..
+   13  cd
+   14  pwd
+   15  echo $0
+   16  man ls
+   17  cd
+   18  ls -la
+   19  cd ~murray
+   20  pwd
+   21  ls
+   22  cd Papers
+   23  pwd
+   24  more
+   25  ls -la
+   26  cd
+   27  pwd
+   28  cd ~murray
+   29  ls -la
+   30  cd Papers
+   31  cd Hopkins/
+   32  cd All_Feedback/
+   33  ls -la
+   34  cd second_draft/
+   35  ls -la
+   36  cd
+   37  cd ~murray
+   38  pwd
+   39  cd Papers
+   40  cd Hopkins/
+   41  cd All_Feedback/
+   42  cd second_draft/
+   43  pwd
+   44  evince sfh_vs_fbmodel.pdf 
+   45  ls -la
+   46  evince sfh_vs_fbmodel.pdf 
+   47  pwd
+   48  history
+   49  evince sfh_vs_fbmodel.pdf 
+   50  grep
+   51  grep . ms*
+   52  ls | grep ms
+   53  more ms.bib
+   54  grep genzel ms.bib
+   55  cd
+   56  pwd
+   57  ls -la | m
+   58  mkdir CTA200_2020
+   59  ls -la
+   60  cd CTA200_2020/
+   61  ls -la
+   62  which vi
+   63  vi list_dir
+   64  pwd
+   65  ls
+   66  cd CTA200_2020
+   67  pwd
+   68  ls
+   69  vi list_dir
+   70  pwd
+   71  ls
+   72  m list_dir
+   73  more list_dir
+   74  ls -la
+   75  emacs
+   76  more list_dir
+   77  vi test.txt
+   78  ls
+   79  ls -la
+   80  cd
+   81  pwd
+   82  ls -la
+   83  find . -name "list"
+   84  find . -name "list" -print
+   85  pwd
+   86  find . -name "*list*" -print
+   87  find . -name "*list*"
+   88  cd
+   89  module
+   90  module avail
+   91  gcc --version
+   92  python --version
+   93  module load gcc
+   94  gcc --version
+   95  module load python
+   96  python --version
+   97  module list
+   98  module purge
+   99  module list
+  100  module avail
+  101  module load gcc
+  102  module load python
+  103  module list
+  104  module unload gcc
+  105  module list
+  106  module load gcc
+  107  gcc
+  108  gcc --version
+  109  cd
+  110  cd ~fhorrobin/
+  111  dir *.c
+  112  pwd
+  113  ls *.c
+  114  more main.c
+  115  gcc main,
+  116  gcc main.
+  117  ls -la *.c
+  118  cp main.c ~
+  119  pwd
+  120  pushd ~
+  121  pwd
+  122  ls -la *.c
+  123  more main.c
+  124  gcc main.
+  125  gcc main.c
+  126  ls a.*
+  127  a.out
+  128  ./ a.out
+  129  / a.out
+  130  . /a.out
+  131  ./a.out
+  132  echo sPATH
+  133  echo $PATH
+  134  ./a
+  135  ./a.out
+  136  pu
+  137  pwd
+  138  push
+  139  pushd
+  140  pwd
+  141  ls *.py
+  142  main.py
+  143  ./main.py
+  144  python main.py
+  145  module list
+  146  module unload gcc
+  147  python main.py
+  148  pwd
+  149  cd
+  150  pwd
+  151  makedir CTA200_2022
+  152  mkdir CTA200_2022
+  153  ls
+  154  cd CTA200_2022
+  155  pwd
+  156  mkdir assignment_1
+  157  ls
+  158  vi README.md
+  159  ls
+  160  module
+  161  module purge
+  162  pwd
+  163  cd /mnt
+  164  pwd
+  165  ls -la
+  166  cd scratch-lustre/
+  167  ls
+  168  cd student04
+  169  pwd
+  170  ls
+  171  mkdir CTA200_2022
+  172  pwd
+  173  ls
+  174  cd CTA200_2022
+  175  pwd
+  176  mkdir assignment_1
+  177  ls
+  178  vi README.md
+  179  ls
+  180  more README.md 
+  181  cd ~murray/
+  182  pwd
+  183  ls
+  184  find
+  185  find "*Hello*"
+  186  rep
+  187  grep
+  188  ls | grep
+  189  pwd
+  190  history
+  191  find . -name "*Hello*"
+  192  find . -name "Hello_world.c"
+  193  cd Papers
+  194  ls
+  195  find . -name "Hello_world.c"
+  196  cd tmp
+  197  pwd
+  198  ls
+  199  history
+  200  ls
+  201  cp Hello_world.c ~
+  202  cp Hello_world.exe ~
+  203  cf
+  204  cd
+  205  pwd
+  206  ls
+  207  cd /mnt
+  208  ls
+  209  cd scratch-lustre/
+  210  cd student04
+  211  pwd
+  212  cd
+  213  cp Hello_world.c /mnt/scratch-lustre/student04
+  214  rm Hello_world.c
+  215  rm Hello_world.exe
+  216  rm main.c
+  217  pwd
+  218  rm CTA200_2022
+  219  cd ~murray
+  220  find . -name "Hello_world.py"
+  221  cd tmp
+  222  ls
+  223  cp Hello_world.py /mnt/scratch-lustre/student04
+  224  cd /mnt/scratch-lustre/student04
+  225  pwd
+  226  ls
+  227  mv --help
+  228  ls
+  229  mv Hello_world.c CTA200_2022/assignment_1/
+  230  ls
+  231  mv Hello_world.py CTA200_2022/assignment_1/
+  232  ls
+  233  cd CTA200_2022/
+  234  ls
+  235  cd assignment_1/
+  236  ls
+  237  mv Hello_world.c Hello_world_Dovgal.c
+  238  ls
+  239  mv Hello_world.py Hello_world_Dovgal.py
+  240  ls
+  241  pwd
+  242  module load gcc
+  243  module list
+  244  gcc Hello_world_Dovgal.c
+  245  more Hello_world_Dovgal.c
+  246  ./Hello_world_Dovgal.c
+  247  Hello_world_Dovgal.c
+  248  gcc Hello_world_Dovgal.
+  249  gcc Hello_world_Dovgal.c
+  250  history
+  251  ls a.*
+  252  ./a.out
+  253  ./a.out Hellow_world.x
+  254  ls
+  255  gcc -o Hello_world_Dovgal.c Hello_world.x
+  256  ls
+  257  rm a.out
+  258  ls
+  259  cd .
+  260  pwd
+  261  ls
+  262  cd ..
+  263  pwd
+  264  ls
+  265  cd ~murray
+  266  cd Papers/tmp/
+  267  ls
+  268  cp Hello_world.c /mnt/scratch-lustre/student04/CTA200_2022/assignment_1/
+  269  pwd
+  270  cd /mnt/scratch-lustre/student04/CTA200_2022/assignment_1/
+  271  ls
+  272  module list
+  273  gcc Hello_world.c
+  274  ls
+  275  rm a.out
+  276  ls
+  277  gcc -Wall Hello_world.c -x Hello_world.x
+  278  ls
+  279  rm a.out
+  280  gcc Hello_world.c
+  281  ls
+  282  mv a.out Hello_world.x
+  283  ls
+  284  Hello_world.x
+  285  ./Hello_world.x 
+  286  python Hello_world_Dovgal.py
+  287  mv Hello_world.c Hello_world_Dovgal.c
+  288  ls
+  289  module load python
+  290  python Hello_world_Dovgal.py
+  291  vi Hello_world_Dovgal.c
+  292  ls
+  293  vi Hello_world_Dovgal.py
+  294  python Hello_world_Dovgal.py
+  295  gcc Hello_world_Dovgal.c
+  296  ls
+  297  mv a.out output_c.txt
+  298  ./output_c.txt
+  299  python Hello_world_Dovgal.py output_python.txt
+  300  ls
+  301  python Hello_world_Dovgal.py | output_python.txt
+  302  ls
+  303  python Hello_world_Dovgal.py > output_python.txt
+  304  ls
+  305  ./output_python.txt
+  306  ls -la
+  307  python Hello_world_Dovgal.py 2> output_python2.txt
+  308  ls
+  309  ./output_python2.txt
+  310  ls -la
+  311  chmod --help
+  312  chmod output_python.txt +x
+  313  chmod output_python.txt x
+  314  chmod output_python.txt -x
+  315  ls -la
+  316  chmod +x output_python2.txt
+  317  ls -la
+  318  ./output_python2.txt
+  319  output_python2.txt
+  320  rm output_python2.txt
+  321  chmod +x output_python.txt
+  322  ./output_python.txt 
+  323  python Hello_world_Dovgal.py
+  324  ls
+  325  rm output_python.txt 
+  326  python Hello_world_Dovgal.py >>outfile
+  327  ls
+  328  rm outfile
+  329  python Hello_world_Dovgal.py >> output_python.txt
+  330  ls
+  331  ./output_python.txt
+  332  ls -la
+  333  rm output_python.txt 
+  334  ./output_c.txt 
+  335  python Hello_world_Dovgal.py >> output_python.txt
+  336  chmod +x output_python.txt
+  337  ls -la
+  338  ./output_python.txt 
+  339  rm output_python.txt 
+  340  python Hello_world_Dovgal.py
+  341  more Hello_world_Dovgal.py 
+  342  python Hello_world_Dovgal.py | mv output_python.txt
+  343  python Hello_world_Dovgal.py | output_python.txt
+  344  python Hello_world_Dovgal.py | cp output_python.txt
+  345  python Hello_world_Dovgal.py | tee output_python.txt
+  346  ls
+  347  ls -la
+  348  python Hello_world_Dovgal.py
+  349  more Hello_world_Dovgal.py
+  350  more output_python.txt 
+  351  chmod x output_python.txt 
+  352  chmode -x output_python.txt 
+  353  chmod -x output_python.txt 
+  354  ls -la
+  355  chmod +x output_python.txt 
+  356  ls -la
+  357  ./output_python.txt 
+  358  module list
+  359  ./output_c.txt 
+  360  more output_python.txt 
+  361  history | cp history.txt
+  362  history | vi history.txt
+  363  ls
+  364  history
+  365  history >> history.txt
